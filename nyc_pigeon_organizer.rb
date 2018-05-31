@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if names.include?(item)
-          organized_pigeons[item][attribute] << property
+          organized_pigeons[item][attribute] << property.to_s
         end
       }
       
